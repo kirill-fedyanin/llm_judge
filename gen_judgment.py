@@ -298,10 +298,9 @@ if __name__ == "__main__":
     match_stat["total_num_matches"] = len(matches)
     match_stat["output_path"] = output_file
 
-    # Show match stats and prompt enter to continue
+    # Show match stats
     print("Stats:")
     print(json.dumps(match_stat, indent=4))
-    input("Press Enter to confirm...")
 
     # Play matches
     if args.parallel == 1:
