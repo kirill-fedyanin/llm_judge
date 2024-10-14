@@ -14,6 +14,7 @@ MODEL_ID='falcon2-chat' # add any name to display locally
 python gen_model_answer.py --model-path $MODEL_NAME  --model-id $MODEL_ID   --num-gpus-total 4
 python gen_judgment.py --model-list $MODEL_ID --parallel 2
 python show_result.py
+python show_category.py
 ```
 
 
