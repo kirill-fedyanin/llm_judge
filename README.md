@@ -1,5 +1,5 @@
 # LLM Judge quick repo
-This is lightweight repack for mt-bench by lmsys. I've left only the files relevant to lm juding.
+This is lightweight repack for mt-bench by lmsys. I've left only the files relevant to mt-bench benchmarking.
 
 
 ## How to use
